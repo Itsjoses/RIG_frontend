@@ -5,7 +5,7 @@ interface Props{
 
 export function BlueButton({children, callback} : Props) {
   return (
-    <button className="bg-blue-600 hover:bg-blue-700 text-white px-2.5 py-1 rounded-md drop-shadow-md min-w-[90px]" onClick={callback}>{children}</button>
+    <button className="bg-blue-600 hover:bg-blue-700 text-white px-2.5 py-1 rounded-md drop-shadow-md min-w-[90px] select-none" onClick={callback}>{children}</button>
   )
 }
 
